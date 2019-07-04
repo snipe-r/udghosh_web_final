@@ -4,7 +4,7 @@
   "description": "Udghosh IIT Kanpur Official Website",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Vishal Agarwal",
   "license": "ISC",
@@ -28,10 +28,6 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shayanuh/Udghosh_Web.git"
-  },
-  "bugs": {
-    "url": "https://github.com/shayanuh/Udghosh_Web/issues"
-  },
-  "homepage": "https://github.com/shayanuh/Udghosh_Web#readme"
+    "url": "https://udghosh.org"
+  }
 }
