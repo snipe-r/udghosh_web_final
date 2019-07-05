@@ -133,7 +133,7 @@ app.get('/fb250db707f26b867234c570dfe12a67b0b4d71e', function(req,res,next){
 // ---------- POST Requests --------------
 
 // Main registration
-app.post('/register', function(req,res,next){
+app.post('/f26fe5b7f7a2f27e5458c9cfd5a55580re', function(req,res,next){
 
 if(req.body.password1 == req.body.password2) {
   uid = encrypt(req.body.name, req.body.password1);
@@ -229,7 +229,7 @@ if(req.body.password1 == req.body.password2) {
 });
 
 // step 2
-app.post('/registerStep2', function(req,res,next){
+app.post('/22d9e9c7277c9857eedb195d410018d6rs', function(req,res,next){
 
   var item ={
     Username : req.body.name,
@@ -291,7 +291,7 @@ app.post('/registerStep2', function(req,res,next){
 
 });
 
-app.post('/login', function(req,res){
+app.post('/766d1e56a1f66f223807ad61d106097flo', function(req,res){
   
   // Taking inputs
   var inputusername = req.body.uname;
@@ -363,14 +363,14 @@ app.post('/login', function(req,res){
 });
 
 // Logout
-app.post('/logout', function(req,res,next){
+app.post('/', function(req,res,next){
     // key from
     sessionStorage.removeItem(key);
 });
 
 
 // registration details editing rights
-app.post('/register_change', function(req,res){
+app.post('/d23df4d956a710e48bbd0290d09728abrc', function(req,res){
 
   var item = {};
 
@@ -458,7 +458,7 @@ app.post('/register_change', function(req,res){
 });
 
 // events change details rights
-app.post('/events_change', function(req,res,next){
+app.post('/b073f1087455e888a841bc3e3eb5eb6cec', function(req,res,next){
   var item = {};
 
   if(req.body.atheletics != ''){
@@ -591,7 +591,7 @@ app.post('/events_change', function(req,res,next){
 
 
 // Send data from form to mail and datbase
-app.post("/form_responses",function(req,res){
+app.post("/c9d3bd7a2d649424b8296368c82d5fe2fr",function(req,res){
   const output = `
   <style>
   table, td, th {  
